@@ -1,0 +1,48 @@
+<header class="d-flex">
+  <div>
+    <a routerLink="">
+      <img src="../assets/files/logo.png" class="logo" alt="OShop" />
+    </a>
+  </div>
+  <nav>
+    <ul class="menu d-flex">
+      <li><a routerLink="Products">Products</a></li>
+      <li><a routerLink="Docs">Docs</a></li>
+      <li><a routerLink="AboutUs">About us</a></li>
+      <!-- <li class="fa fa-shopping-cart"><a></a></li> -->
+    </ul>
+  </nav>
+  <div>
+    <div class="search-icon d-flex">
+      <a href="#">
+        <i class="fa fa-search">
+
+        </i>
+      </a>
+    </div>
+    <div class="dropdown-menu d-flex">
+      <a href="#">
+        <i class="fa fa-bars">
+
+        </i>
+      </a>
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>
+<footer class="row footer">
+  <div class="left-f">
+    <img class="footer-image" src="../assets/files/logo.png" alt="">
+    <ul class="footer-content">
+      <li>About us</li>
+    </ul>
+  </div>
+  <div class="right-f">
+    <h3 class="footer-title">Important points</h3>
+    <ul class="links">
+      <a href="#">
+        <li>Products</li>
+      </a>
+    </ul>
+  </div>
+</footer>

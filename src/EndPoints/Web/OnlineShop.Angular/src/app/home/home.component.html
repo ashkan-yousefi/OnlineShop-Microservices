@@ -1,0 +1,38 @@
+<main>
+    <section class="slider">
+        <div class="slider-text d-flex">
+            <h3>Online Shop</h3>
+            <!-- <p>This is a Shop</p> -->
+
+            <!-- <div>
+         <a href="#"> <img class="iconuser" src="/files/default.png" alt=""></a>
+        </div> -->
+
+            <div class="searchbar d-flex">
+                <form action="" class="searchform d-flex">
+                    <input class="seachinput" type="text" placeholder="Where to go?">
+                    <div>
+                        <button class="search-btn" type="submit">search</button>
+                        <a routerLink="Register" class="slider-btn">Sign Up</a>
+                        <a routerLink="Login" class="slider-btn">Sign In</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <section class="popular">
+        <section class="row popular-heading">
+            <h3 class="popular-title">Wellcome to online shop</h3>
+            <p class="popular-description">Our newest products</p>
+        </section>
+        <section class="row popular-container">
+            <article *ngFor="let item of Products">
+                <img src="{{item.productImage}}">
+                <div class="popular-image-content">
+                    <p>{{item.productName}} <a href="#">{{item.price}}</a></p>
+                </div>
+            </article>
+        </section>
+    </section>
+</main>

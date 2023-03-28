@@ -1,0 +1,33 @@
+<main>
+    <section class="top-section-show-products">
+        <h2>Products</h2>
+    </section>
+    <section class="sub-section-show-products">
+        <section class="popular">
+            <section class="popular-container">
+                <article *ngFor="let item of FProducts">
+                    <!-- <article ng-repeat="let item in Products"> -->
+                    <img src="{{item.productImage}}">
+                    <div class="popular-image-content">
+                        <p>{{item.productName}} <a href="#">{{item.price}}</a></p>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="right-filter-show-products">
+            <section class="order-by-show-products">
+                <h6 class="title-filter">Order By</h6>
+                <select action="" class="filter-selectbox"  [(ngModel)]="filterType" (change)="filterProducts()">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="normal" selected>Normal</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                </select>
+            </section>
+        </section>
+    </section>
+    <section class="pagination-show-products">
+
+    </section>
+</main>

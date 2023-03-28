@@ -1,0 +1,130 @@
+@media (min-width: 0px) {
+  nav li {
+    display: none;
+  }
+
+  .sub-section {
+    display: inline-block;
+  }
+
+  .right-section {
+    display: block;
+    width: 100%;
+  }
+
+  .left-section {
+    display: block;
+    width: 100%;
+  }
+
+  .sub-section-show-products {
+    display: inline-block;
+    width: 90%;
+  }
+  .popular-container {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .sub-section-show-products {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .right-filter-show-products {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+  /*Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) {
+    .search-icon {
+      background-color: #FF4A52;
+      position: absolute;
+      width: 45px;
+      right: 45px;
+      top: 0px;
+      bottom: 0px;
+    }
+
+    .search-icon a {
+      color: white;
+    }
+
+    .dropdown-menu a {
+      color: white;
+    }
+
+    .dropdown-menu {
+      background-color: #1ec6e6;
+      position: absolute;
+      width: 45px;
+      right: 0px;
+      top: 0px;
+      bottom: 0px;
+      z-index: 1000;
+    }
+
+
+  }
+
+  /*Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    .sub-section-show-products {
+      display: flex;
+      width: 100%;
+    }
+  
+    .popular-container {
+      width: 100%;
+      display: flex;
+    }
+  
+    .sub-section-show-products {
+      display: flex;
+      width: 100%;
+    }
+  
+    .right-filter-show-products {
+      width: 30%;
+    }
+  }
+
+  /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+
+
+    nav li {
+      display: inline-block;
+    }
+
+    .search-icon {
+      right: 0px;
+    }
+
+    .dropdown-menu {
+      display: none !important;
+    }
+
+    .sub-section {
+      display: flex;
+    }
+
+    .right-section {
+      display: flex;
+      width: 50%;
+    }
+
+    .left-section {
+      display: flex;
+      width: 50%;
+    }
+  }
+
+  /*Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .search-icon {
+      width: 100px;
+    }
+  }

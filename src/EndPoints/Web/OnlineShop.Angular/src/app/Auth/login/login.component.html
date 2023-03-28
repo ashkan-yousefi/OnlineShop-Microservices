@@ -1,0 +1,10 @@
+<main>
+    <section class="login-section">
+        <h3 class="login-text">Wellcome to OnlineShop</h3>
+        <form class="login-form-info" #form="ngForm" (ngSubmit)="onSubmit(form)">
+            <input type="email" class="login-input-info" placeholder="Enter your email address" id="email" name="email" required [(ngModel)]="email">
+            <input type="password" class="login-input-info" placeholder="Enter password" id="password" name="password" required [(ngModel)]="password">
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </section>
+</main>

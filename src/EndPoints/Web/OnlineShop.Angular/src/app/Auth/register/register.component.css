@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.login-text {
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-family: "Nothing You Could Do", cursive;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.login-section {
+    background-color:white;
+    background-repeat: no-repeat;
+    /* height: 42.80vw; */
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.login-form-info {
+    flex-direction: column;
+}
+
+.login-input-info {
+    border: #FF4A52 solid 0.5px;
+    width: 80%;
+    border: 1;
+    background-color: transparent;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    margin: 40px 0px;
+}
+
+.login-btn {
+
+    width: 30%;
+    /* flex-direction: column; */
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: #FF4A52;
+    border: 0;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0px;
+    margin-bottom: 240px;
+}

@@ -1,0 +1,68 @@
+.aboutus {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.left-section {
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-section {
+    margin-bottom: 30px;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.left-section-input {
+    display: flex;
+    width: 20vm;
+    background-color: white;
+    border: #FF4A52 solid 0.5px;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    margin: 40px 10px;
+    padding: 10px;
+    outline: 0;
+}
+
+.sendemail-btn {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    background-color: #FF4A52;
+    width: 20vm;
+    transition: color 2s;
+    /* border: white solid 0.5px; */
+    outline: 0;
+    margin: 30px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.form-send-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightsectionh-txt {
+    font-size: medium;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.right-subtext {
+    font-size: 10px;
+    color: white;
+    background-color: #FF4A52;
+    padding: 5px;
+    border-radius: 10px;
+}
