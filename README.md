@@ -39,7 +39,9 @@ Swager's view of the API and part of the UI of the project:
 
 
 
-https://user-images.githubusercontent.com/108582477/227276429-4219cbea-22e3-4ddd-841a-c6a897283990.mp4
+https://user-images.githubusercontent.com/108582477/231144858-8bf85b5c-1fdd-4e5e-ab1f-e5e616a09d8f.mp4
+
+
 
 
 <br/>
