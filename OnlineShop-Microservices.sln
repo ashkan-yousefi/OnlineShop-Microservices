@@ -118,16 +118,10 @@ EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "OnlineShop.Angular", "src\EndPoints\Web\OnlineShop.Angular\OnlineShop.Angular.esproj", "{5E413E54-9406-45F9-A4CB-BE477D852F63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E4BDCC29-251B-452A-B105-DA5FE558E26A}"
-	ProjectSection(SolutionItems) = preProject
-		Documentation.txt = Documentation.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D53C9119-3CB9-4EFA-931E-65D1E0D59C02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{0CC4DB3F-36C8-48B6-A0E1-1686F56F3D15}"
-	ProjectSection(SolutionItems) = preProject
-		file.css = file.css
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Blazor", "src\EndPoints\Web\OnlineShop.Blazor\OnlineShop.Blazor.csproj", "{A7729CE9-78E1-4566-AA1A-3C2C5DD882C2}"
 EndProject
