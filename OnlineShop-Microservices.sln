@@ -118,10 +118,16 @@ EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "OnlineShop.Angular", "src\EndPoints\Web\OnlineShop.Angular\OnlineShop.Angular.esproj", "{5E413E54-9406-45F9-A4CB-BE477D852F63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E4BDCC29-251B-452A-B105-DA5FE558E26A}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation.txt = Documentation.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D53C9119-3CB9-4EFA-931E-65D1E0D59C02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{0CC4DB3F-36C8-48B6-A0E1-1686F56F3D15}"
+	ProjectSection(SolutionItems) = preProject
+		file.css = file.css
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Blazor", "src\EndPoints\Web\OnlineShop.Blazor\OnlineShop.Blazor.csproj", "{A7729CE9-78E1-4566-AA1A-3C2C5DD882C2}"
 EndProject
@@ -133,7 +139,19 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "onlineshop.react", "src\End
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{C2399A58-E8E3-481D-95F9-870E977C0CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Wpf", "src\EndPoints\Windows\OnlineShop.Wpf\OnlineShop.Wpf.csproj", "{F2256344-2C8F-47D5-8E6D-CF7B315239F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Wpf", "src\EndPoints\Windows\OnlineShop.Wpf\OnlineShop.Wpf.csproj", "{F2256344-2C8F-47D5-8E6D-CF7B315239F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceTests", "ServiceTests", "{3B489E9E-8855-4E3A-8A02-17073506BCF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountTests", "AccountTests", "{FC179698-66B7-49E2-98F4-5718B95238B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasketTests", "BasketTests", "{9CCC496E-AADB-44A6-BC86-F0A5E4BAAF9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderTests", "OrderTests", "{53FEC65F-E335-4EF7-A40D-7F9E32779D22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductTests", "ProductTests", "{5C6A12D4-1768-488D-8B4A-C6FD3282B408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Account.UnitTest", "tests\ServiceTests\AccountTests\Account.UnitTest\Account.UnitTest.csproj", "{1BEACD79-95FF-4444-868F-BFE799E66BE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,6 +289,10 @@ Global
 		{F2256344-2C8F-47D5-8E6D-CF7B315239F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2256344-2C8F-47D5-8E6D-CF7B315239F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2256344-2C8F-47D5-8E6D-CF7B315239F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEACD79-95FF-4444-868F-BFE799E66BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEACD79-95FF-4444-868F-BFE799E66BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEACD79-95FF-4444-868F-BFE799E66BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEACD79-95FF-4444-868F-BFE799E66BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -337,6 +359,12 @@ Global
 		{50819CC4-7DA1-41CB-A972-0C45B8992E8E} = {56680FB3-6315-4AE1-ACFF-E05218A235FC}
 		{C2399A58-E8E3-481D-95F9-870E977C0CCE} = {BF6A75D9-921C-454D-B20C-2A12387D68DB}
 		{F2256344-2C8F-47D5-8E6D-CF7B315239F9} = {C2399A58-E8E3-481D-95F9-870E977C0CCE}
+		{3B489E9E-8855-4E3A-8A02-17073506BCF5} = {D53C9119-3CB9-4EFA-931E-65D1E0D59C02}
+		{FC179698-66B7-49E2-98F4-5718B95238B3} = {3B489E9E-8855-4E3A-8A02-17073506BCF5}
+		{9CCC496E-AADB-44A6-BC86-F0A5E4BAAF9C} = {3B489E9E-8855-4E3A-8A02-17073506BCF5}
+		{53FEC65F-E335-4EF7-A40D-7F9E32779D22} = {3B489E9E-8855-4E3A-8A02-17073506BCF5}
+		{5C6A12D4-1768-488D-8B4A-C6FD3282B408} = {3B489E9E-8855-4E3A-8A02-17073506BCF5}
+		{1BEACD79-95FF-4444-868F-BFE799E66BE6} = {FC179698-66B7-49E2-98F4-5718B95238B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C66BF48-4E7D-4C60-83AE-147F5662B919}
