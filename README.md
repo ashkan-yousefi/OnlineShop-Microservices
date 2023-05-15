@@ -39,7 +39,7 @@ Swager's view of the API and part of the UI of the project:
 
 
 
-https://user-images.githubusercontent.com/108582477/231144858-8bf85b5c-1fdd-4e5e-ab1f-e5e616a09d8f.mp4
+![Movie](https://user-images.githubusercontent.com/108582477/231144858-8bf85b5c-1fdd-4e5e-ab1f-e5e616a09d8f.mp4)
 
 
 
